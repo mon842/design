@@ -1,14 +1,9 @@
 .wrapper {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    grid-template-columns: 1fr 1fr;
+    line-height: 3.8rem;
 }
 
-.box1 {
-    background-color: rgb(12, 12, 12);
-    height: 100vh;
-}
 
 .typeWriter {
     display: block;
@@ -56,12 +51,12 @@
 .small {
     font-size: 1.5rem;
     height: 2rem;
-    margin-top: 1.8rem;
+    margin-top: .6rem;
     margin-left: 0.5rem;
 }
 
 .bottom {
-    margin-top: 2.7rem;
+    margin-top: 1rem;
     margin-right: 0.5rem;
 }
 
@@ -70,38 +65,16 @@
     font-weight: 800;
 }
 
-.box1{
-    width: 180vh;
-    background-color: rgb(12, 12, 12);
-}
 
-.purpleDiv {
-    position: relative;
-    background-image: linear-gradient(to bottom , rgb(250, 3, 250), rgb(83, 0, 138) );
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    height: 97vh;
-    margin-top: 7px;
-}
 
-.registerBtn {
-    cursor: pointer;
-    position: absolute;
-    top: 0.8rem;
-    right: 1.5rem;
-    background-color: black;
-    color: #fff;
-    width: 10rem;
-}
 .startBtn {
     background-image: linear-gradient(to right, rgb(250, 3, 250), rgb(83, 0, 138));
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 15%;
     font-size: 1.6rem;
     border-radius: 25px;
     font-weight: 600;
-
+    margin-top: 2rem;
 }
 
 .inline {
@@ -119,7 +92,7 @@
 
 .typeWriterH2,
 .typeWriterH2>* {
-    font-size: 2rem;
+    font-size: 3.5rem;
     background: linear-gradient(to right, rgb(224, 4, 224), rgb(49, 0, 185));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -163,12 +136,16 @@
     .getText {
         font-size: 0.9rem;
         height: 0.4rem;
-        margin-top: 1rem;
+        margin-top: 0.3rem;
         margin-left: 0.5rem;
+    }
+    .getText{
+        display: block;
+        margin-bottom: 1rem;
     }
 
     .bottom {
-        margin-top: 1rem;
+        margin-top: 0.4rem;
         margin-right: 0.5rem;
     }
 
@@ -181,7 +158,18 @@
         font-size: 1.1rem;
     }
 
+    .typeWriter {
+
+        width: 80%;
+    }
+    
+    .inline {
+        line-height: 2.5rem;
+        width: 80%;
+    }
+
     .startBtn {
+        margin-left: 13%;
         font-size: 1.2rem;
         border-radius: 15px;
         font-weight: 600;
@@ -190,45 +178,13 @@
 
     }
 
-    .purpleDiv {
-        border-top-left-radius: 30px;
-        border-bottom-right-radius: 30px;
-        height: 55vh;
-        display: flex;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100vw;
-    }
-    .box1{
-        background-color: black;
-        width: 100vw;
-        height: 120vh;
-        padding-top: 2rem;
-    }
-
-    .registerBtn {
-        top: 0.7rem;
-        right: 1rem;
-        background-color: black;
-        color: #fff;
-        width: 6rem;
-        font-size: 0.7rem;
-    }
 
     .inlineLanding h1 {
         font-size: 1.3rem;
     }
-    .player{
-        height: 400px;
-        width: 400px;
+    .typeWriterH2{
+        margin-left: 0.2rem;
+        font-size: 1.7rem;
     }
-
-}
-
-@media (max-width: 415px){
-    .box1{
-        width: 90vw;
-        padding-top: 2rem;
-    }
+    
 }

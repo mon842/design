@@ -15,7 +15,7 @@ function Landing() {
             "Microsoft Questions.",
             "Atlassian Questions.",
             "Sprinklr Questions.",
-            "Every Goddam OA...",
+            "Every Goddam OA.",
         ],
         loop: {},
         typeSpeed: 20,
@@ -29,15 +29,15 @@ function Landing() {
                 <div className="inlineLanding">
                     <img
                         className="appLogo"
-                        src="https://img.freepik.com/premium-vector/modern-letter-c-p-programming-technology-logo-design_568868-467.jpg"
+                        src="https://res.cloudinary.com/dfrntsanb/image/upload/f_auto,q_auto/v1/GetSetOA.com/aqecjxdpowshtfr5tper"
                     />
                     <h1 className="name">GetSet </h1>
                     <h1 className="nameGr">OA.com</h1>
                 </div>
 
-                <div className="typeWriter">
+                <div className="typeWriter inline">
                     <h2>
-                        <span className="getText">Get</span>{" "}
+                        <span className="getText">Get ,</span>{" "}
                         <span className="typeWriterH2">{text}</span>
                         <span className="typeWriterCursor">
                             <Cursor />
@@ -64,27 +64,12 @@ function Landing() {
                 </div>
 
 
-                <button className="startBtn" onClick={() => navigator("/auth")}>
+                <button className="startBtn " onClick={() => navigator("/auth")}>
                     Start Solving
                 </button>
 
             </div>
 
-            <div className="box1">
-                <div className="purpleDiv">
-                    <button className="registerBtn" onClick={() => navigator("/auth")}>
-                        REGISTER
-                    </button>
-                    <Player
-                        src={animationData}
-                        className="player"
-                        loop
-                        autoplay
-                        speed={"2"}
-                    // style={{ height: "700px", width: "700px" }}
-                    />
-                </div>
-            </div>
 
             <Outlet></Outlet>
         </div>
