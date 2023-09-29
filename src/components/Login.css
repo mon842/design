@@ -109,5 +109,6 @@
     }
     .appLogo{
         height: 2.2rem;
+        margin-top: 0.1rem;
     }
 }
