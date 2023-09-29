@@ -1,4 +1,5 @@
 .loginTop{
+    padding-top: 1rem;
     width: 100vw;;
     background-image: linear-gradient(to bottom , rgb(59, 1, 59), rgb(168, 3, 168) );
     height: 100vh;
@@ -33,6 +34,9 @@
 .btn p{
     margin-left: 0.3rem;
 }
+.appLogo {
+    height: 4rem;
+}
 
 .gitBtn{
     background-color: black;
@@ -42,8 +46,14 @@
     height: 4rem;
 }
 .playerb{
-    height: 350px;
-    width: 350px;
+
+    height: 360px;
+    width: 360px;
+}
+.loginWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
 }
 
 @media (max-width: 640px) {
@@ -51,9 +61,9 @@
     .btnDiv{
         flex-direction: column;
     }
-    .player{
-        height: 200px;
-        width: 200px;
+    .playerb{
+        height: 220px;
+        width: 220px;
     }
 
     .inline h1 {
@@ -93,9 +103,11 @@
     .git-icon{
         height: 2.5rem;
     }
-    .player{
-        height: 300px;
-        width: 300px;
+    .playerb{
+        height: 240px;
+        width: 240px;
     }
-
+    .appLogo{
+        height: 2.2rem;
+    }
 }

@@ -19,8 +19,8 @@ export default function Login() {
         <div className="loginTop">
             <div className="inline">
                 <img
-                    className="appLogoLogin"
-                    src="wepik-gradient-developers-pink-coding-logo-20230823145648gBI8.png"
+                    className="appLogo"
+                    src="https://res.cloudinary.com/dfrntsanb/image/upload/f_auto,q_auto/v1/GetSetOA.com/aqecjxdpowshtfr5tper"
                 />
                 <h1 className="name">GetSet</h1>
                 <h1 className="nameGr">OA</h1>
