@@ -115,7 +115,7 @@
 
 .typeWriterH2,
 .typeWriterH2>* {
-    font-size: 3rem;
+    font-size: 2rem;
     background: linear-gradient(to right, rgb(224, 4, 224), rgb(49, 0, 185));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
