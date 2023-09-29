@@ -55,7 +55,7 @@ function Landing() {
                     </div>
 
                     <div className="inline top">
-                        <p className="big">Pooling All </p>
+                        <p className="big poll">Pooling All </p>
                     </div>
 
                     <div className="inline">
@@ -64,12 +64,12 @@ function Landing() {
                     </div>
 
                     <div className="inline">
-                        <p className="big tier">TIER-1 Colleges</p>
+                        <p className="big tier ">TIER-1 Colleges</p>
                     </div>
 
                     <div className="inline">
                         <p className="small bottom"> across</p>
-                        <p className="big india">India</p>
+                        <p className="big india poll">India</p>
                     </div>
 
 
