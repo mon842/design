@@ -10,12 +10,12 @@ nav{
 }
 
 .regis{
-    background-color: rgb(197, 42, 245);
+    background-image: linear-gradient(to right, rgb(250, 3, 250), rgb(83, 0, 138));
+    font-size: 0.8rem;
     color: #fff;
-    border-radius: 15px;
-    font-size: 0.7rem;
-    padding-top: 0.2rem ;
-    padding-bottom: 0.2rem ;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-top: 2rem;
     
 }
 .typeWriter {
