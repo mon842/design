@@ -36,9 +36,12 @@ function Landing() {
                         <h1 className="nameGr">OA.com</h1>
                     </div>
 
-                    <button     className="regis" onClick={() => navigator("/auth")}>
-                        REGISTER
-                    </button>
+                    <div>
+                        <button className="regis button" onClick={() => navigator("/auth")}>
+                            REGISTER
+                        </button>
+                    </div>
+
 
                 </nav>
 
@@ -77,6 +80,9 @@ function Landing() {
 
             </div>
 
+            <div className="heroimg">
+                <img src="https://fresources.tech/images/home_banner.svg" alt="" />
+            </div>
 
             <Outlet></Outlet>
         </div>

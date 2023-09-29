@@ -2,7 +2,24 @@
     width: 100vw;
     height: 100vh;
     line-height: 3.8rem;
+    display: flex;
 }
+
+.heroimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
 nav{
     display: flex;
@@ -11,7 +28,7 @@ nav{
 
 .regis{
     background-image: linear-gradient(to right, rgb(250, 3, 250), rgb(83, 0, 138));
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #fff;
     border-radius: 25px;
     font-weight: 600;
@@ -84,6 +101,7 @@ nav{
 .startBtn {
     background-image: linear-gradient(to right, rgb(250, 3, 250), rgb(83, 0, 138));
     display: block;
+    color: #fff;
     margin-left: 15%;
     font-size: 1.6rem;
     border-radius: 25px;
@@ -205,4 +223,8 @@ nav{
         font-size: 1.7rem;
     }
     
+    .heroimg img{
+        height: 350px;
+        width: 350px;
+    }
 }
