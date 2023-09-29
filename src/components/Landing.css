@@ -211,12 +211,12 @@ nav{
 
     .typeWriter {
 
-        width: 80%;
+        width: 70%;
     }
     
     .inline {
         line-height: 2.5rem;
-        width: 80%;
+        width: 70%;
     }
 
     .startBtn {
@@ -233,8 +233,9 @@ nav{
     .inlineLanding h1 {
         font-size: 1rem;
     }
-    .appLogo {
+    .appLogo{
         height: 2.2rem;
+        margin-top: 0.1rem;
     }
     
 
