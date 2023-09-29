@@ -1,7 +1,3 @@
-/* .appLogo{
-    grid-template-columns: 2fr 5fr 1fr;
-} */
-
 .wrapper {
     width: 100vw;
     height: 100vh;
@@ -104,7 +100,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     border-radius: 25px;
     font-weight: 600;
 
@@ -119,7 +115,7 @@
 
 .typeWriterH2,
 .typeWriterH2>* {
-    font-size: 4rem;
+    font-size: 3rem;
     background: linear-gradient(to right, rgb(224, 4, 224), rgb(49, 0, 185));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
