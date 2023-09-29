@@ -23,7 +23,9 @@
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 9rem;
+    padding-right: 1rem;
 }
 
 .regis{
@@ -160,6 +162,11 @@ nav{
         flex-direction: column;
     }
 
+    nav{
+
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
 
     .big,
     .small {
