@@ -1,0 +1,104 @@
+.loginTop{
+
+    background-image: linear-gradient(to bottom , rgb(59, 1, 59), rgb(168, 3, 168) );
+    height: 100vh;
+}
+
+.inline h1 {
+    font-size: 2rem;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.2rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    border-radius: 15px;
+    margin-left: 0.2rem;
+    width: 15rem;
+}
+
+.btn p{
+    margin-left: 0.3rem;
+}
+
+.gitBtn{
+    background-color: black;
+    color: #fff;
+}
+.git-icon{
+    height: 4rem;
+}
+.playerb{
+    height: 350px;
+    width: 350px;
+}
+
+@media (max-width: 640px) {
+
+    .btnDiv{
+        flex-direction: column;
+    }
+    .loginTop{
+        margin-top: 11rem;
+    }
+    .player{
+        height: 200px;
+        width: 200px;
+    }
+
+    .inline h1 {
+        font-size: 1rem;
+    }
+    
+    .btnDiv{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .btn{ 
+        font-size: .7rem;
+        font-weight: 600;
+        padding: 0.2rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        border-radius: 15px;
+        margin-left: 0.2rem;
+        width: 10rem;
+        margin-top: 0.8rem;
+    }
+    
+    .btn p{
+        margin-left: 0.3rem;
+    }
+    
+    .gitBtn{
+        background-color: black;
+        color: #fff;
+    }
+    .git-icon{
+        height: 2.5rem;
+    }
+    .player{
+        height: 300px;
+        width: 300px;
+    }
+
+}

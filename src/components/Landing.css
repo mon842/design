@@ -1,0 +1,238 @@
+/* .appLogo{
+    grid-template-columns: 2fr 5fr 1fr;
+} */
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box1 {
+    background-color: rgb(12, 12, 12);
+}
+
+.typeWriter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.inline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.blackDiv {
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+}
+
+.appLogo {
+    height: 4rem;
+}
+
+.inlineLanding {
+    display: flex;
+}
+
+.inlineLanding h1 {
+    font-size: 2rem;
+}
+
+.name {
+    color: #fff;
+}
+
+.getText,
+.big,
+.small {
+    color: #fff;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.small {
+    font-size: 1.5rem;
+    height: 2rem;
+    margin-top: 1.8rem;
+    margin-left: 0.5rem;
+}
+
+.bottom {
+    margin-top: 2.7rem;
+    margin-right: 0.5rem;
+}
+
+.big {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.box1{
+    width: 180vh;
+}
+
+.purpleDiv {
+    position: relative;
+    background-image: linear-gradient(to bottom , rgb(250, 3, 250), rgb(83, 0, 138) );
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 97vh;
+    margin-top: 7px;
+}
+
+.registerBtn {
+    position: absolute;
+    top: 0.8rem;
+    right: 1.5rem;
+    background-color: black;
+    color: #fff;
+    width: 10rem;
+}
+
+.inline {
+    display: flex;
+}
+
+.startBtn {
+    background-image: linear-gradient(to right, rgb(250, 3, 250), rgb(83, 0, 138));
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.2rem;
+    border-radius: 25px;
+    font-weight: 600;
+
+}
+
+.nameGr,
+.nameGr>* {
+    background: linear-gradient(to right, rgb(224, 4, 224), rgb(39, 0, 148));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.typeWriterH2,
+.typeWriterH2>* {
+    font-size: 4rem;
+    background: linear-gradient(to right, rgb(224, 4, 224), rgb(49, 0, 185));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ques,
+.ques>* {
+    font-size: 3rem;
+    background: linear-gradient(to right, rgb(224, 4, 224), rgb(199, 9, 9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tier,
+.tier>* {
+    font-size: 3rem;
+    background: linear-gradient(to right, rgb(224, 4, 224), rgb(39, 0, 148));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.playerb{
+    height: 350px;
+    width: 350px;
+}
+
+@media (max-width: 822px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .big,
+    .small {
+        color: #fff;
+        margin-top: 0.0rem;
+        margin-bottom: 0.0rem;
+    }
+
+    .small,
+    .getText {
+        font-size: 0.9rem;
+        height: 0.4rem;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    .bottom {
+        margin-top: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    .big {
+        font-size: 1.9rem;
+        font-weight: 600;
+    }
+
+    .typeWriterH2 {
+        font-size: 1.1rem;
+    }
+
+    .startBtn {
+        font-size: 1.2rem;
+        border-radius: 15px;
+        font-weight: 600;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .purpleDiv {
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
+    }
+    .box1{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 98%;
+    }
+
+    .registerBtn {
+        top: 0.7rem;
+        right: 1rem;
+        background-color: black;
+        color: #fff;
+        width: 6rem;
+        font-size: 0.7rem;
+    }
+
+    .inlineLanding h1 {
+        font-size: 1.3rem;
+    }
+    .player{
+        height: 400px;
+        width: 400px;
+    }
+    .box1{
+        width: 90vw;
+        padding-top: 2rem;
+    }
+}
+
+@media (max-width: 415px){
+    .box1{
+        width: 90vw;
+        padding-top: 2rem;
+    }
+}
