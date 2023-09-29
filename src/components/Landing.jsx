@@ -26,14 +26,21 @@ function Landing() {
         <div className="wrapper">
             <div className="blackDiv">
 
-                <div className="inlineLanding">
-                    <img
-                        className="appLogo"
-                        src="https://res.cloudinary.com/dfrntsanb/image/upload/f_auto,q_auto/v1/GetSetOA.com/aqecjxdpowshtfr5tper"
-                    />
-                    <h1 className="name">GetSet </h1>
-                    <h1 className="nameGr">OA.com</h1>
-                </div>
+                <nav>
+                    <div className="inlineLanding">
+                        <img
+                            className="appLogo"
+                            src="https://res.cloudinary.com/dfrntsanb/image/upload/f_auto,q_auto/v1/GetSetOA.com/aqecjxdpowshtfr5tper"
+                        />
+                        <h1 className="name">GetSet </h1>
+                        <h1 className="nameGr">OA.com</h1>
+                    </div>
+
+                    <button     className="regis" onClick={() => navigator("/auth")}>
+                        REGISTER
+                    </button>
+
+                </nav>
 
                 <div className="typeWriter inline">
                     <h2>

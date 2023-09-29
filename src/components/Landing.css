@@ -4,7 +4,20 @@
     line-height: 3.8rem;
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+}
 
+.regis{
+    background-color: rgb(197, 42, 245);
+    color: #fff;
+    border-radius: 15px;
+    font-size: 0.7rem;
+    padding-top: 0.2rem ;
+    padding-bottom: 0.2rem ;
+    
+}
 .typeWriter {
     display: block;
     margin-left: auto;
@@ -30,6 +43,7 @@
 
 .inlineLanding {
     display: flex;
+    padding: 0.2rem;
 }
 
 .inlineLanding h1 {
@@ -85,7 +99,7 @@
 
 .nameGr,
 .nameGr>* {
-    background: linear-gradient(to right, rgb(224, 4, 224), rgb(39, 0, 148));
+    background: linear-gradient(to right, rgb(224, 4, 224), rgb(61, 2, 221));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -180,8 +194,12 @@
 
 
     .inlineLanding h1 {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
+    .appLogo{
+        height: 2.2rem;
+    }
+
     .typeWriterH2{
         margin-left: 0.2rem;
         font-size: 1.7rem;
