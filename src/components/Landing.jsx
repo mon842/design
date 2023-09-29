@@ -7,7 +7,7 @@ import animationData from '../assets/lotties/landing.json';
 import './Landing.css';
 
 function Landing() {
-    //   let navigator = useNavigate();
+    let navigator = useNavigate();
 
     const [text] = useTypewriter({
         words: [

@@ -1,5 +1,5 @@
 .loginTop{
-
+    width: 100vw;;
     background-image: linear-gradient(to bottom , rgb(59, 1, 59), rgb(168, 3, 168) );
     height: 100vh;
 }
@@ -50,9 +50,6 @@
 
     .btnDiv{
         flex-direction: column;
-    }
-    .loginTop{
-        margin-top: 11rem;
     }
     .player{
         height: 200px;
