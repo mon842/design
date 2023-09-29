@@ -12,8 +12,6 @@ function Landing() {
     const [text] = useTypewriter({
         words: [
             "Google Questions.",
-            "Microsoft Questions.",
-            "Atlassian Questions.",
             "Sprinklr Questions.",
             "Every Goddam OA.",
         ],
