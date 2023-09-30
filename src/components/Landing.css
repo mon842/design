@@ -163,8 +163,7 @@ nav{
 
 @media (max-width: 822px) {
     .wrapper {
-        display: flex;
-        flex-direction: column;
+        grid-template-columns: 1fr; 
     }
 
     nav{
@@ -254,6 +253,9 @@ nav{
     .player{
         height: 270px;
         width: 300px;
+    }
+    .item:nth-child(2) {
+        order: -1;  
     }
     
 }

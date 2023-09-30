@@ -42,7 +42,7 @@ function Landing() {
             </nav>
             <div className="wrapper">
 
-                <div className="blackDiv">
+                <div className="blackDiv item">
 
                     <div className="typeWriter inline">
                         <h2>
@@ -79,7 +79,7 @@ function Landing() {
 
                 </div>
 
-                <div className="heroimg">
+                <div className="heroimg item">
                     <Player
                         src={animationData}
                         className="player"
