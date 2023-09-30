@@ -5,7 +5,11 @@
     height: 100vh;
 }
 
-.inline h1 {
+.logo{
+    display: flex;
+}
+
+.logo h1 {
     font-size: 2rem;
 }
 
@@ -67,8 +71,8 @@
         width: 220px;
     }
 
-    .inline h1 {
-        font-size: 1rem;
+    .logo h1 {
+        font-size: 0.9rem;
     }
     
     .btnDiv{
@@ -111,5 +115,9 @@
     .appLogo{
         height: 2.2rem;
         margin-top: 0.1rem;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
     }
 }

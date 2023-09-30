@@ -17,14 +17,18 @@ export default function Login() {
 
     return (
         <div className="loginTop">
-            <div className="inline">
-                <img
-                    className="appLogo"
-                    src="https://res.cloudinary.com/dfrntsanb/image/upload/f_auto,q_auto/v1/GetSetOA.com/aqecjxdpowshtfr5tper"
-                />
-                <h1 className="name">GetSet</h1>
-                <h1 className="nameGr">OA</h1>
-            </div>
+
+            <nav>
+                <div className="logo">
+                    <img
+                        className="appLogo"
+                        src="https://res.cloudinary.com/dfrntsanb/image/upload/f_auto,q_auto/v1/GetSetOA.com/aqecjxdpowshtfr5tper"
+                    />
+                    <h1 className="name">GetSet </h1>
+                    <h1 className="nameGr">OA.com</h1>
+                </div>
+            </nav>
+
 
             <div className="loginWrapper">
                 <div className="Lcontainer">
@@ -34,7 +38,7 @@ export default function Login() {
                         loop
                         autoplay
                         speed={"2"}
-                        // style={{ height: "50px", width: "50px" }}
+                    // style={{ height: "50px", width: "50px" }}
                     />
                     <div className="btnDiv">
 

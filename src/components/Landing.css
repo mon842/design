@@ -2,7 +2,8 @@
     width: 100vw;
     height: 100vh;
     line-height: 3.8rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .heroimg{
@@ -24,7 +25,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding-left: 9rem;
+    padding-left: 8rem;
     padding-right: 2rem;
 }
 
@@ -155,9 +156,9 @@ nav{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.playerb{
-    height: 350px;
-    width: 350px;
+.player{
+    height: 650px;
+    width: 650px;
 }
 
 @media (max-width: 822px) {
@@ -167,9 +168,10 @@ nav{
     }
 
     nav{
-
-        padding-left: 2rem;
-        padding-right: 1rem;
+        display: flex;
+        justify-content: center;
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
 
     .big,
@@ -205,10 +207,7 @@ nav{
         font-weight: bold;
     }
 
-    .typeWriterH2 {
-        font-size: 1.1rem;
-    }
-
+    
     .typeWriter {
 
         width: 70%;
@@ -237,11 +236,10 @@ nav{
         height: 2.2rem;
         margin-top: 0.1rem;
     }
-    
 
     .typeWriterH2{
         margin-left: 0.2rem;
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
     
     .heroimg img{
@@ -251,8 +249,11 @@ nav{
     .regis{
 
         font-size: 0.7rem;
-
         font-weight: 500;
-        
     }
+    .player{
+        height: 260px;
+        width: 290px;
+    }
+    
 }

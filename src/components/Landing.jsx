@@ -21,7 +21,7 @@ function Landing() {
     });
 
     return (
-        <div>
+        <>
             <nav>
                 <div className="inlineLanding">
                     <img
@@ -32,11 +32,11 @@ function Landing() {
                     <h1 className="nameGr">OA.com</h1>
                 </div>
 
-                <div>
+                {/* <div>
                     <button className="regis button" onClick={() => navigator("/auth")}>
                         REGISTER
                     </button>
-                </div>
+                </div> */}
 
 
             </nav>
@@ -80,12 +80,18 @@ function Landing() {
                 </div>
 
                 <div className="heroimg">
-                    <img src="https://fresources.tech/images/home_banner.svg" alt="" />
+                    <Player
+                        src={animationData}
+                        className="player"
+                        loop
+                        autoplay
+                        speed={"2"}
+                    />
                 </div>
 
                 <Outlet></Outlet>
             </div>
-        </div>
+        </>
 
     );
 }
