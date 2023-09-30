@@ -80,7 +80,7 @@
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
+        width: 55%;
         margin-top: 1rem;
         margin-bottom: 2rem;
     }
@@ -108,9 +108,10 @@
     .git-icon{
         height: 2.5rem;
     }
+
     .playerb{
-        height: 240px;
-        width: 240px;
+        height: 270px;
+        width: 300px;
     }
     .appLogo{
         height: 2.2rem;
