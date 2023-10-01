@@ -72,10 +72,16 @@ function Landing() {
                         <p className="big india poll">India</p>
                     </div>
 
+                    <div className="btnGp">
+                        <button className="startBtn " onClick={() => navigator("/auth")}>
+                            Start Solving
+                        </button>
 
-                    <button className="startBtn " onClick={() => navigator("/auth")}>
-                        Start Solving
-                    </button>
+                        {/* <button className="startBtn " onClick={() => navigator("/auth")}>
+                            Register
+                        </button> */}
+                    </div>
+
 
                 </div>
 

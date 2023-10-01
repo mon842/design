@@ -111,6 +111,7 @@ nav{
     border-radius: 25px;
     font-weight: 600;
     margin-top: 2rem;
+    border: none;
 }
 
 .inline {
@@ -161,6 +162,11 @@ nav{
     width: 650px;
 }
 
+.btnGp{
+    display: flex;
+    justify-content:left;
+}
+
 @media (max-width: 822px) {
     .wrapper {
         grid-template-columns: 1fr; 
@@ -172,6 +178,7 @@ nav{
         padding-left: 0rem;
         padding-right: 0rem;
     }
+    
 
     .big,
     .small {
@@ -219,7 +226,7 @@ nav{
 
     .startBtn {
         margin-left: 13%;
-        font-size: 1.2rem;
+        font-size: 1rem;
         border-radius: 15px;
         font-weight: 600;
         margin-top: 1.5rem;
@@ -254,8 +261,8 @@ nav{
         height: 270px;
         width: 300px;
     }
-    .item:nth-child(2) {
+    /* .item:nth-child(2) {
         order: -1;  
-    }
+    } */
     
 }
