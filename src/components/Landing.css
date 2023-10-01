@@ -144,7 +144,7 @@ nav{
 
 .ques,
 .ques>* {
-    font-size: 4rem;
+    font-size: 3rem;
     background: linear-gradient(to right, rgb(224, 4, 224), rgb(199, 9, 9));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
